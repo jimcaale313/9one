@@ -128,7 +128,7 @@ const Footer = () => {
         }}>
             <span className="text-lg font-semibold text-green-400 mb-4 block">Opening Hours</span>
             <div className="space-y-2 text-gray-300">
-              <p>Daily: 7:00 AM - 12:00 PM</p>
+              <p>Daily: 7:00 AM - 12:00 AM</p>
             </div>
           </motion.div>
         </div>
