@@ -8,7 +8,7 @@ const TikTokIcon = props => <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0
 const Footer = () => {
   const socialLinks = [{
     icon: Facebook,
-    href: 'https://facebook.com/9onecafe',
+    href: 'https://facebook.com/',
     label: 'Facebook'
   }, {
     icon: Instagram,
