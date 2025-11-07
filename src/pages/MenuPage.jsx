@@ -4,15 +4,17 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
 
 const menuImages = [
-  { id: 1, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/6a47bc5196251d019ac1fbc87dfe99c0.jpg", alt: "9ONE Cafe Menu Cover" },
-  { id: 2, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/8defaa50bf43fd09dbf3be4f94122062.jpg", alt: "9ONE Cafe Breakfast Menu" },
-  { id: 3, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/8f482c16c9cbb0d252a6989b311c16b8.jpg", alt: "9ONE Cafe Breakfast Menu Part 2" },
-  { id: 4, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/128006d2ac0bd5f0679d8d30efbda6f9.jpg", alt: "9ONE Cafe Main Course and Pasta Menu" },
-  { id: 5, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/b797825b3e8abe7778a89954d37dada1.jpg", alt: "9ONE Cafe Burgers and Sandwiches Menu" },
-  { id: 6, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/767b121885807734f485be5c713ed2c3.jpg", alt: "9ONE Cafe Hot Coffee and Ice Lattes Menu" },
-  { id: 7, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/be39069d0eae786f92b48c965b373a14.jpg", alt: "9ONE Cafe Hot Tea, Ice Teas and Cakes Menu" },
-  { id: 9, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/3615894efba4e6714e3e2bd6f9a0a725.jpg", alt: "9ONE Cafe Frappe, Ice Lattes and Mojitos Menu" },
-  { id: 10, src: "https://horizons-cdn.hostinger.com/587f7367-974c-4b76-a36a-4340892fd783/0e363917a4d45588b17d7b84dc866e20.jpg", alt: "9ONE Cafe Hot Tea, Ice Teas and Cakes Menu Part 2" },
+   { id: 1, src: "/menu/1.jpg", alt: "9ONE Cafe Menu Cover" },
+  { id: 2, src: "/menu/2.jpg", alt: "9ONE Cafe Breakfast Menu" },
+  { id: 3, src: "/menu/3.jpg", alt: "9ONE Cafe Coffee Menu" },
+  { id: 4, src: "/menu/4.jpg", alt: "9ONE Cafe Tea and Cakes Menu" },
+  { id: 5, src: "/menu/5.jpg", alt: "9ONE Cafe Matcha and Smoothies Menu" },
+  { id: 6, src: "/menu/6.jpg", alt: "9ONE Cafe Juice and Mojitos Menu" },
+  { id: 7, src: "/menu/7.jpg", alt: "9ONE Cafe Main Course Menu" },
+  { id: 8, src: "/menu/8.jpg", alt: "9ONE Cafe Burgers and Sandwiches Menu" },
+  { id: 9, src: "/menu/9.jpg", alt: "9ONE Cafe Pasta and Salads Menu" },
+  { id: 10, src: "/menu/10.jpg", alt: "9ONE Cafe Pizza Menu" },
+  { id: 11, src: "/menu/11.jpg", alt: "9ONE Cafe Sides and Soups Menu" },
 ];
 
 const cardVariants = {
