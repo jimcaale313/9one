@@ -46,7 +46,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: MapPin, title: 'Location', details: 'Hargeisa, Somaliland' },
+    { icon: MapPin, title: 'Location', details: 'Masala, near Ambasaddor - Hargeisa - Somaliland' },
     { icon: Phone, title: 'Phone', details: '+252 638833831' },
     { icon: Mail, title: 'Email', details: 'info@9onecafe.com' },
     { icon: Clock, title: 'Hours', details: '7:00 AM - 12:00 AM Daily' }
