@@ -47,14 +47,13 @@ const CraftingMoments = () => {
             className="relative h-80 lg:h-full rounded-2xl shadow-2xl overflow-hidden"
           >
             <img
-  className="w-full h-full object-cover"
-  alt="A baker decorating a cake with precision"
-  imageSrc="/menu/1.jpg"
-/>
-
+              className="w-full h-full object-cover"
+              alt="A baker decorating a cake with precision"
+              src="/menu/1.jpg"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
           </motion.div>
-        </div>  
+        </div>
       </div>
 
       {/* Video Modal */}
