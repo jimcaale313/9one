@@ -10,7 +10,7 @@ const FreshPicks = () => {
       category: 'Coffee',
       name: '9ONE Signature Cappuccino',
       imageAlt: 'A cup of 9ONE Signature Cappuccino with latte art',
-      imageSrc: 'https://images.unsplash.com/photo-1568228156290-45edbd928166'
+      imageSrc: '/menu/1.jpg'
     },
     {
       category: 'Desserts',
