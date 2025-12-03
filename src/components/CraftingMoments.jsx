@@ -49,7 +49,7 @@ const CraftingMoments = () => {
             <img
               className="w-full h-full object-cover"
               alt="A baker decorating a cake with precision"
-              src="/videos/9oneimage.jpeg"
+              src="/menu/1.jpeg"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
           </motion.div>
